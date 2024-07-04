@@ -40,10 +40,15 @@ O Kathara depende do Docker para rodar, portanto, instalar o Docker primeiro.
 ### 3.5.2. Capturar no pc2 pacote e gravar saída em arquivo:
 - tcpdump icmp -w /hosthome/cap1.ncap
 ### 3.5.3. Abrir arquivo no hospedeiro com wireshark.
-## 3.6. Remover dispositivos:
+## 3.6. O Kathará apresenta três tipos de comandos, utilizados em um terminal:
+- v-commands: permitem criar e configurar um dispositivo via terminal.
+- l-commands: permite criar um ambiente com vários dispositivos conectados em rede através de um script.
+- global-commands: comandos de gerenciamento global.
+- Ver comandos em: man kathara
+### 3.6.1 Remover dispositivos:
 - kathara vclean --name pc1
 - kathara vclean --name pc2
-## 3.7. Limpar todos os dispositivos e domínios de colisão:
+### 3.6.2. Limpar todos os dispositivos e domínios de colisão:
 - kathara wipe
 ## 3.8. Comando para iniciar e parar rede do laboratório
 ### 3.8.1 Inicia rede
@@ -53,3 +58,4 @@ O Kathara depende do Docker para rodar, portanto, instalar o Docker primeiro.
 
 # Referências
 [1] [Kathará](https://github.com/KatharaFramework/Kathara)
+ 
