@@ -1,5 +1,5 @@
 # 1. Kathará
-é um sistema de emulação de rede leve baseado em contêineres Docker. Ele pode ser realmente útil para mostrar demonstrações/aulas interativas, testar redes de produção em um ambiente sandbox ou desenvolver novos protocolos de rede.[1] 
+É um sistema de emulação de rede leve baseado em contêineres Docker. Ele pode ser realmente útil para mostrar demonstrações/aulas interativas, testar redes de produção em um ambiente sandbox ou desenvolver novos protocolos de rede.[1] 
 
 # 2. Instalação
 O Kathara depende do Docker para rodar, portanto, instalar o Docker primeiro.
