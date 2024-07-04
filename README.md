@@ -8,13 +8,13 @@ Cada dispositivo de rede é emulado por um contêiner. Dispositivos de rede virt
 O Kathara depende do Docker para rodar, portanto, instalar o Docker primeiro.
 
 ## Instalação Codespace GitHub:
-Adicionar a chave pública para obter o Kathará:
-  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 21805A48E6CBBA6B991ABE76646193862B759810
-Adicionar o repositório do Kathará:
-  sudo add-apt-repository ppa:katharaframework/kathara
-Atualizar o acesso aos repositórios:
-  sudo apt update
-Instalar o Kathará:
-  sudo apt install kathara
+### Adicionar a chave pública para obter o Kathará: 
+#### sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 21805A48E6CBBA6B991ABE76646193862B759810
+### Adicionar o repositório do Kathará:
+#### sudo add-apt-repository ppa:katharaframework/kathara
+### Atualizar o acesso aos repositórios:
+#### sudo apt update
+### Instalar o Kathará:
+#### sudo apt install kathara
 
   
