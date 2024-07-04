@@ -12,9 +12,10 @@ O Kathara depende do Docker para rodar, portanto, instalar o Docker primeiro.
 ### Atualizar o acesso aos repositórios:
 - sudo apt update
 ### Instalar o Kathará:
-- sudo apt install kathara
+- sudo apt-install install kathara
 ### Verificar instalação do Kathará:
 - kathara ckeck 
-  
+### Instalação Xterm
+- sudo apt-get install xterm
 # Referências
 [1] [Kathará](https://github.com/KatharaFramework/Kathara)
