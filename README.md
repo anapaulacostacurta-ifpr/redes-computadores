@@ -5,14 +5,14 @@
 O Kathara depende do Docker para rodar, portanto, instalar o Docker primeiro.
 
 ## 2.1. Instalação no Ubuntu:
-### 2.1.1. Adicionar a chave pública para obter o Kathará: 
+### 2.1.1. Adicionar a chave pública para obter o Kathará (talvez não seja necessário): 
 - sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 21805A48E6CBBA6B991ABE76646193862B759810
 ### 2.1.2. Adicionar o repositório do Kathará:
 - sudo add-apt-repository ppa:katharaframework/kathara
 ### 2.1.3. Atualizar o acesso aos repositórios:
 - sudo apt update
 ### 2.1.4. Instalar o Kathará:
-- sudo apt-install install kathara
+- sudo apt-install kathara
 ### 2.1.5. Verificar instalação do Kathará:
 - kathara ckeck 
 ### 2.1.6. Instalação Xterm
